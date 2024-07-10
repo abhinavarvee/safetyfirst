@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Safety - First!</title>
+    <style>
+      /* Reset default margin and padding */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url("https://img.freepik.com/premium-vector/construction-background-with-grunge-texture-yellow-black-template_712151-133.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        color: #fff;
+        height: 100vh;
+       justify-content: center;
+        align-items: center;
+      }
+
+      .content {
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #3498db;
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 60vh; /* Set a maximum height for the image */
+        height: auto;
+      }
+
+      .model-links {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .model-link {
+        margin: 10px;
+        border: 1px solid #444;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .model-link a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        border: 1px solid #3498db;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+      }
+
+      .model-link a:hover {
+        background-color: #258cd1;
+      }
+
+      .about {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="image-container">
+        <img
+          src="https://t3.ftcdn.net/jpg/01/04/65/30/360_F_104653071_d1ySGupb8cZWKNJymkIFXNtyXXHx4pLX.jpg"
+          alt="Safety Image"
+        />
+      </div>
+      <div class="model-links">
+        <div class="model-link">
+          <h3>Car-Bike Detection</h3>
+          <p>
+            Our models can detect cars and bikes to improve road safety. Whether
+            you need image or camera-based detection, we've got you covered.
+          </p>
+          <a
+            href="https://detect.roboflow.com/?model=car-bike-detection-5a9j5&version=2&api_key=4TL4aO0SkBxaNvhgPPZF"
+            >Image Detection</a
+          >
+          <a
+            href="https://demo.roboflow.com/car-bike-detection-5a9j5/2?publishable_key=rf_Xak0MKVDOdSNZsyb4GLU5CiXOBZ2"
+            >Camera Detection</a
+          >
+        </div>
+        <div class="model-link">
+          <h3>Helmet Detection</h3>
+          <p>
+            Discover how our models can detect helmets for increased safety.
+            Our image and camera detection systems can help protect riders.
+          </p>
+          <a
+            href="https://detect.roboflow.com/?model=helmet-detection-zktr7&version=5&api_key=4TL4aO0SkBxaNvhgPPZF"
+            >Image Detection</a
+          >
+          <a
+            href="https://demo.roboflow.com/helmet-detection-zktr7/5?publishable_key=rf_Xak0MKVDOdSNZsyb4GLU5CiXOBZ2"
+            >Camera Detection</a
+          >
+        </div>
+        <div class="model-link">
+          <h3>Seatbelt Detection</h3>
+          <p>
+            See how our models can detect seatbelts to improve road safety. Our
+            image and camera detection solutions can enhance driver and
+            passenger safety.
+          </p>
+          <a
+            href="https://detect.roboflow.com/?model=seat-belt-detection-udcfg&version=5&api_key=4TL4aO0SkBxaNvhgPPZF"
+            >Image Detection</a
+          >
+          <a
+            href="https://demo.roboflow.com/seat-belt-detection-udcfg/5?publishable_key=rf_Xak0MKVDOdSNZsyb4GLU5CiXOBZ2"
+            >Camera Detection</a
+          >
+        </div>
+      </div>
+      <div id="about" class="about">
+        <h2>About Safety Detection</h2>
+        <p>
+          Safety Detection is committed to making the roads safer for
+          everyone. Our advanced models use image and camera-based detection to
+          identify potential risks and improve road safety. With a focus on
+          cars, bikes, seat belts, and helmets, we strive to reduce accidents
+          and save lives. Learn more about our mission and how you can join us
+          in promoting road safety.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
